@@ -1,0 +1,28 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Simple Chat Bot with Java/*
+!/Simple Chat Bot with Java/task/
+/Simple Chat Bot with Java/task/*
+!/Simple Chat Bot with Java/task/src
+
+# Project exclude paths
+/Topics/Comparing values. Relational operators/Groundhogs at a party/out/
+/Topics/Comparing values. Relational operators/Groundhogs at a party/out/production/classes/
+/Topics/Conditional statement/Interval/out/
+/Topics/Conditional statement/Interval/out/production/classes/
+/Topics/Conditional statement/Leap year/out/
+/Topics/Conditional statement/Leap year/out/production/classes/
+/Topics/Integer types and operations/Squirrels and nuts/out/
+/Topics/Integer types and operations/Squirrels and nuts/out/production/classes/
+/Topics/Naming variables/Roadrunner's digital dashboard dilemma/out/
+/Topics/Naming variables/Roadrunner's digital dashboard dilemma/out/production/classes/
