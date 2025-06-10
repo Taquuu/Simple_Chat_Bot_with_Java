@@ -6,7 +6,7 @@ public class SimpleBot {
     final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        greet("Chatty", "2018"); // change it as you need
+        greet("Chatty", "2018"); 
         remindName();
         guessAge();
         count();
@@ -17,7 +17,7 @@ public class SimpleBot {
     static void greet(String assistantName, String birthYear) {
         System.out.println("Hello! My name is " + assistantName + ".");
         System.out.println("I was created in " + birthYear + ".");
-        System.out.println("Please, remind me your name.");
+        System.out.println("Please, remind me of your name.");
     }
 
     static void remindName() {
